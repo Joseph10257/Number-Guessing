@@ -37,3 +37,7 @@ python main.py
 * User input handling
 * Random number generation
 * Building a full CLI game
+
+## Credits
+Project inspired by roadmap.sh:
+https://roadmap.sh/projects/number-guessing-game
