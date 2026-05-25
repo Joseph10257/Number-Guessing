@@ -42,7 +42,7 @@ Enter your choice: """).lower()
     if guess_attempts >= attempts and guess != number:
         print(f"Game over! The number was {number}.")
 
-    play_again = input("\nPlay again? (y/n): ").lower()
+    play_again = input("\nPlay again? (y/n): ").lower().strip()
     if play_again != "y":
         print("Thanks for playing!")
         break
